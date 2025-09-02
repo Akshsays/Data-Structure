@@ -21,4 +21,4 @@ I’m currently learning DSA and will keep updating this repo with new topics as
 - Strengthen my understanding of **DSA fundamentals**  
 - Build a collection of reference programs for revision  
 
-- Note: You may also find few old c syntax or libraries in this repo because i am also using turbo c for programming.
+## Note: You may also find few old c syntax or libraries in this repo because i am also using turbo c for programming.
