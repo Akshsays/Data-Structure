@@ -68,14 +68,14 @@ void add()
 }
 int del()
 {
-    struct node *traverse=r;
+    struct node *traverse=f;
     int ele;
-    if(r==NULL)
+    if(f==NULL)
     {
         printf("Nothing to delete");
     }
-    ele=r->data;
-    r=r->next;
+    ele=f->data;
+    f=f->next;
     return (ele);
     free(traverse);
 }
