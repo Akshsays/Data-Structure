@@ -94,4 +94,5 @@ int peek()
     struct node *traverse=r;
     int ele;
     ele=traverse->data;
+    return (ele);
 }
