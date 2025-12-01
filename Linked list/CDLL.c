@@ -28,7 +28,6 @@ void create()
             head=newnode;
             tail=newnode;
             newnode->link2=head;
-            newnode->link1=head;
         }
         else
         {
@@ -36,7 +35,6 @@ void create()
             newnode->link1=tail;
             tail=newnode;
             newnode->link2=head;
-            head->link1=head;
         }
     }
 }
