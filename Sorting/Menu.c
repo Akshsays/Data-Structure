@@ -79,8 +79,8 @@ void sort(int ar[],int n)
         break;
         case 2:select(ar,n);
         break;
-        // case 3:insert(ar,n);
-        // break;
+        case 3:insert(ar,n);
+        break;
         case 4:exit(0);
     }
 }

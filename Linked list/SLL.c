@@ -78,7 +78,9 @@ void del()
     scanf("%d",&pos);
     if(pos==1)
     {
-
+        current=head;
+        head=head->next;
+          free(current);
     }
     else
     {
